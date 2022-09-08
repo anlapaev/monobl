@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     
-    font-family: 'PTRootUIWebRegular';
     }
     
-    body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    overflow-x: hidden;
+    body {   
+        background-image: url("./map.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
     }
     
     a {
@@ -31,22 +32,8 @@
     margin-top: 3px;
     }
 
-.map{
-    background-image: url("./map.jpg");
-    background-size: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
 .cube {
     background-size: 100%;
-
-
-
-    /* width: 300%;
-    height: auto; */
 
     width: 300px;
     height: auto;
@@ -56,36 +43,33 @@
     background-repeat: no-repeat;
 }
 
-.not_transparent{
-    opacity: 0;
-}
-
-.not_transparent.active {
-    opacity: 1;
-    transition: all .1s;
-}
-
-
 
 .niznii {
-    width: 291px;
+    width: 12%;
+    left: 20%;
 }
 
 .dzer {
-    width: 211px;
+    width: 8%;
     right: 0;
 }
 
 .semenov {
-    width: 211px;
+    width: 8%;
     bottom: 0;
 }
 
 .vorotin {
-    width: 211px;
+    width: 8%;
     left: 1210px;
     bottom: 216px;
 }
+
+#myVideo{
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+  }
 
 
 
