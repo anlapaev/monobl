@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'PTRootUIWebRegular';
+    }
+    
+    body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    }
+    
+    a {
+    color: inherit;
+    text-decoration: none;
+    }
+    
+    ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    input {
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 3px;
+    
+    margin-top: 3px;
+    }
+
+.map{
+    background-image: url("./map.jpg");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cube {
+    background-size: 100%;
+
+
+
+    /* width: 300%;
+    height: auto; */
+
+    width: 300px;
+    height: auto;
+
+    position: absolute;
+
+    background-repeat: no-repeat;
+}
+
+.not_transparent{
+    opacity: 0;
+}
+
+.not_transparent.active {
+    opacity: 1;
+    transition: all .1s;
+}
+
+
+
+.niznii {
+    width: 291px;
+}
+
+.dzer {
+    width: 211px;
+    right: 0;
+}
+
+.semenov {
+    width: 211px;
+    bottom: 0;
+}
+
+.vorotin {
+    width: 211px;
+    left: 1210px;
+    bottom: 216px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .niznii {
+    background-image: url("./niznii.png");
+}
+
+.dzer {
+    background-image: url("./dzer.png");
+    right: 0;
+}
+
+.semenov {
+    background-image: url("./semenov.png");
+    bottom: 0;
+}
+
+.vorotin {
+    background-image: url("./vorotin.png");
+    right: 0;
+    bottom: 0;
+}
+ */
