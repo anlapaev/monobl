@@ -16,7 +16,7 @@ function checkTimeAndPlay() {
     x.style.visibility='visible'
     x.play();
 }
-  
+        
 
 let j = 0;
 
