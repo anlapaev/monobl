@@ -4,6 +4,7 @@ let all = document.getElementsByClassName("cube")
 let map = document.getElementsByClassName("map")
     
 let arr_img = [
+
     niz2 = './niznii2.png',
     dzer2 = './dzer2.png',
     semenov2 = './semenov2.png',
@@ -32,9 +33,7 @@ setTimeout(() => {
                 for (let index = 0; index < all.length; index++) {
                     all[index].style.display = 'none';
                 }
-                
-                console.log(j);
-                setTimeout(checkTimeAndPlay, 1500);
+                setTimeout(checkTimeAndPlay, 400);
 
     }
         })
