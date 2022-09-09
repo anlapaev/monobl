@@ -1,7 +1,6 @@
 
 let all = document.getElementsByClassName("cube")
 
-
 let map = document.getElementsByClassName("map")
     
 let arr_img = [
